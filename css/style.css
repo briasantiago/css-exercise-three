@@ -59,14 +59,16 @@ body {
   font-size: 16px;
 }
 
+.content {
+  display: inline-block;
+}
+
 .content h1 {
-  display: inline-block
   font-size: 18px;
   font-weight: 900;
 }
 
 .content h3 {
-  display: inline-block
   font-size: 14px;
   padding-top: 5px;
 }
@@ -102,9 +104,5 @@ nav {
 .arrow {
   float: right;
   font-size: 0.7em;
-  font-weight: 50;
-  margin: 0;
- 
+  padding: 5px;
 }
-
-
